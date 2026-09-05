@@ -112,7 +112,7 @@
 &trans      &trans           &kp GRAVE        &mkp LCLK       &mkp MCLK       &mkp RCLK       &mmv MOVE_DOWN   &kp PGUP        &kp PGDN        &kp HOME    &kp END    &kp MINUS         &kp EQUAL
 &trans      &trans           &trans           &trans           &trans           &mkp MB5       &mmv MOVE_LEFT   &kp LS(GRAVE)    &trans           &trans     &trans     &kp LBKT          &kp RBKT
 &trans      &trans           &trans           &trans           &trans           &trans           &kp LEFT         &kp DOWN        &kp UP          &kp RIGHT     &kp INS    &kp F11           &kp F12
-&kp C_MUTE  &kp LCTL         &kp LGUI         &kp LALT         &trans           &trans             &mkp LCLK        &mkp LCLK       &kp SPACE       &kp RET    &trans     &trans
+&rgb_ug BRIGHT_DOWN  &rgb_ug BRIGHT_DOWN  &rgb_ug BRIGHT_UP  &rgb_ug BRIGHT_UP  &trans           &trans             &mkp LCLK        &mkp LCLK       &kp SPACE       &kp RET    &trans     &trans
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
