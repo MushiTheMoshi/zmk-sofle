@@ -118,10 +118,10 @@ layers:
   - INS
   - F11
   - F12
-  - $$mdi:volume-off$$
-  - LCTL
-  - LGUI
-  - $$mdi:apple-keyboard-option$$
+  - BRIGHT DOWN
+  - BRIGHT DOWN
+  - BRIGHT UP
+  - BRIGHT UP
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
@@ -244,8 +244,8 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:pan-down$$
   - {t: '$$mdi:pan-up$$', type: held alternate}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - FFD
+  - REW
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
