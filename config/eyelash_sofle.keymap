@@ -82,7 +82,7 @@
         tog_arrows_glow: tog_arrows_glow {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_ON>, <&tog 1>;
+            bindings = <&rgb_ug RGB_TOG>, <&tog 1>;
             label = "TOG_ARROWS_GLOW";
         };
 
