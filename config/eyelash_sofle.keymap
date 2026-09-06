@@ -82,14 +82,14 @@
         tog_arrows_glow: tog_arrows_glow {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&tog 1>, <&rgb_ug RGB_ON>;
+            bindings = <&rgb_ug RGB_ON>, <&tog 1>;
             label = "TOG_ARROWS_GLOW";
         };
 
         tog_mouse_glow: tog_mouse_glow {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&tog 1>, <&rgb_ug RGB_OFF>;
+            bindings = <&rgb_ug RGB_OFF>, <&tog 1>;
             label = "TOG_MOUSE_GLOW";
         };
     };
@@ -152,7 +152,7 @@
                 &none  &none          &none           &none          &none          &none          &mmv MOVE_DOWN   &mkp MB1        &mkp MB2        &none          &none           &none          &none
                 &none  &mkp LCLK      &mkp RCLK       &mkp MB2       &mkp MB1       &mkp MB5       &mmv MOVE_LEFT   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP   &mmv MOVE_RIGHT &mkp RCLK      &mkp MCLK
                 &none  &msc SCRL_LEFT &msc SCRL_RIGHT &none          &none          &none          &mmv MOVE_RIGHT  &msc SCRL_DOWN  &msc SCRL_UP    &mkp MB4       &mkp MB5        &none          &none
-                &none  &none          &none           &none          &none          &none          &mkp LCLK        &none           &none           &none          &none           &none
+                &none  &none          &none           &none          &none          &none          &tog_arrows_glow &none           &none           &none          &none           &none
             >;
 
             display-name = "MOUSE";
